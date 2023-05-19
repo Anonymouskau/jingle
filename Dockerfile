@@ -33,8 +33,9 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 # Expose the desired port
-
+ENV ASPNETCORE_URLS=http://0.0.0.0:5000
 EXPOSE 5000
+ 
 
 # Start the application
 ENTRYPOINT ["dotnet", "jingle.dll"]

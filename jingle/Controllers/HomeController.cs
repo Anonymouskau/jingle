@@ -27,7 +27,7 @@ public class HomeController : Controller
             string fnama= mp.FileName;
             Path.GetFileName(fnama);
             
-       string uploadpath=Path.Combine(Directory.GetCurrentDirectory(),"wwwroot\\mp3",fnama);
+       string uploadpath=Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/mp3",fnama);
        var stream =new FileStream(uploadpath,FileMode.Create);
        mp.CopyToAsync(stream);
        Dbmanager db=new Dbmanager();

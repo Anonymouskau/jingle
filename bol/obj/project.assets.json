@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\jingle\\bol\\bol.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\bol\\bol.csproj",
       "projectName": "bol",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\jingle\\bol\\bol.csproj",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\bol\\bol.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\jingle\\bol\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\bol\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

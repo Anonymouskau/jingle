@@ -1746,11 +1746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\jingle\\jingle\\jingle.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\jingle\\jingle.csproj",
       "projectName": "jingle",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\jingle\\jingle\\jingle.csproj",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\jingle\\jingle.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\jingle\\jingle\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\jingle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1767,11 +1767,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Dell\\Desktop\\jingle\\bol\\bol.csproj": {
-              "projectPath": "C:\\Users\\Dell\\Desktop\\jingle\\bol\\bol.csproj"
+            "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\bol\\bol.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\bol\\bol.csproj"
             },
-            "C:\\Users\\Dell\\Desktop\\jingle\\dal\\dal.csproj": {
-              "projectPath": "C:\\Users\\Dell\\Desktop\\jingle\\dal\\dal.csproj"
+            "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\dal\\dal.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\dal\\dal.csproj"
             }
           }
         }

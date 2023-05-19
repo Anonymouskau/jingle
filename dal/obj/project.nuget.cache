@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4+WvZDY7b9l1ZDJ6wcAd+WDfjoOdOkRa+0LldINBMkx+Vp6yW0xiLYJKZbGeswtMhv/3q9bJ5bUEyemxHfW+kw==",
+  "dgSpecHash": "GRxN8dXz9apvNlAlcjTpUEULjNgik/lhQ8K77zNFPqqMu1FpjEPpsybra7K43Qk/+dFcLBlbSh4Wposf/qMPjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Desktop\\jingle\\dal\\dal.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\dal\\dal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
