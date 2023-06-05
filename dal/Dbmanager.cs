@@ -36,11 +36,11 @@ public class Dbmanager
 
 
    public List<Mp3saver> getallaudio(){
-      conn.Open();
+     
       List<Mp3saver>lp=new List<Mp3saver>();
 
     try{
-
+        conn.Open();
        
         MySqlCommand cmd=new MySqlCommand("select * from audbook",conn);
         cmd.ExecuteNonQuery();

@@ -4,7 +4,7 @@ namespace dal;
 public class Dbutil
 { 
 
-   private static string connection=@"server=aws.connect.psdb.cloud;uid=9789pwgqp7m7yu815j7c;password=pscale_pw_NrKJvG6zamhjylT57XxFBd2mTYl27ABFOIWj47NoPDd;database=jingle";
+   private static string connection=@"Server=aws.connect.psdb.cloud;Database=jingle;user=jchrphuqsa27rylnv5fy;password=pscale_pw_id0EmrVJLSjVu0377BZEnFUaQdxvVfNDAiIjtqGcd4A;SslMode=VerifyFull";
  
     public static MySqlConnection conn =null;
        

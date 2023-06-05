@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5lcq+iln/y2l5Enb9QXYfPPiIkP7Jb+GxXnS6uRMKp4=",
+  "Hash": "Gm2Q+ydZkiy5O55C8suMQyYIW5L5BRYMkqKWGl3jE0A=",
   "Source": "jingle",
   "BasePath": "_content/jingle",
   "Mode": "Default",
@@ -1256,6 +1256,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\mp3\\Deva Deva (Kannada)(PagalWorld.com.se).mp3"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\jingle\\wwwroot\\mp3\\Ishq Di Baajiyaan - Diljit Dosanjh.mp3",
+      "SourceId": "jingle",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\jingle\\wwwroot\\",
+      "BasePath": "_content/jingle",
+      "RelativePath": "mp3/Ishq Di Baajiyaan - Diljit Dosanjh.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mp3\\Ishq Di Baajiyaan - Diljit Dosanjh.mp3"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\jingle1\\jingle\\jingle\\wwwroot\\mp3\\Kesariya(PagalWorld.com.se).mp3",
