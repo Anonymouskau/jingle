@@ -4,7 +4,7 @@ namespace dal;
 public class Dbutil
 { 
 
-   private static string connection=@"server=sql12.freemysqlhosting.net;uid=sql12618175;pwd=b4Qb7gGzql;database=sql12618175";
+   private static string connection=@"server=aws.connect.psdb.cloud;uid=f8cgfxmygeykkj1q2umm;pwd=pscale_pw_gEBwQ58iYSb81CzK08dKl6o94V2yewcvvNsS0IE6ipV;database=jingle";
  
     public static MySqlConnection conn =null;
        
