@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using jingle.Models;
 using System.IO;
 using dal;
+using System.Threading.Tasks;
 namespace jingle.Controllers;
 
 public class HomeController : Controller
@@ -21,15 +22,15 @@ public class HomeController : Controller
     }
    
    [HttpPost]
-   public IActionResult Add(IFormFile mp)
+   public async Task<IActionResult> Add(IFormFile mp)
     {    
-       try{
+     try{
             string fnama= mp.FileName;
             Path.GetFileName(fnama);
             
        string uploadpath=Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/mp3",fnama);
        var stream =new FileStream(uploadpath,FileMode.Create);
-       mp.CopyToAsync(stream);
+       await  mp.CopyToAsync(stream);
        Dbmanager db=new Dbmanager();
 
        string path="mp3/"+fnama;  
