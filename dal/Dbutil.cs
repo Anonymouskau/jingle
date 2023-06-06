@@ -1,10 +1,20 @@
 ﻿using System.Data;
+using System.IO;
 using MySql.Data.MySqlClient;
+using System.Text.Json;
 namespace dal;
 public class Dbutil
 { 
+  public static string getString1(){
+   string filename="appsettings.json";
+   string json=File.ReadAllText(filename); 
+   JsonDocument jdoc=JsonDocument.Parse(json);
+   JsonElement jele =jdoc.RootElement;
+   string defaultstring= jele.GetProperty("ConnectionStrings").GetProperty("Default").GetString();
+   return defaultstring;
+  } 
+  private static string connection=getString1();
 
-   private static string connection=@"Server=aws.connect.psdb.cloud;Database=jingle;user=jchrphuqsa27rylnv5fy;password=pscale_pw_id0EmrVJLSjVu0377BZEnFUaQdxvVfNDAiIjtqGcd4A;SslMode=VerifyFull";
  
     public static MySqlConnection conn =null;
        
