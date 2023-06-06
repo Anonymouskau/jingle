@@ -10,9 +10,9 @@ public class Dbmanager
 
    
    public int addbook(string filename, string link){
-    conn.Open();
     try
     {
+     conn.Open();
        MySqlCommand cmd=new MySqlCommand("insert into audbook(filename,link)values(?filename,?link)",conn);
     cmd.Parameters.Add("@filename",MySqlDbType.VarChar).Value=filename;
     cmd.Parameters.Add("@link",MySqlDbType.VarChar).Value=link;
